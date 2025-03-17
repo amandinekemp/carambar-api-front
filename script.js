@@ -1,5 +1,6 @@
 async function getRandomJoke() {
-    const response = await fetch("http://localhost:3000/blagues/random");
+    const apiurl = "https://carambar-api-5ec1.onrender.com";
+    const response = await fetch(apiurl+"/v1/blagues/random");
     const data = await response.json();
     let jokeContent;
     if (data.content) {
