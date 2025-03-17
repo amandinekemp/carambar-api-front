@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #FFF5E1;
+    margin: 0;
+    padding: 0;
+}
+.banner img {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+button {
+    background-color: #FFD700;
+    color: #D71A28;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: 3px solid #D71A28;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+button:hover {
+    background-color: #FFC107;
+    transform: scale(1.1);
+}
+
+.bottom-image {
+    margin-top: 40px;
+}
+
+.bottom-image img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
